@@ -1,57 +1,42 @@
 # Adventure-Works-Cycles-Tableau
 
-This project delivers a comprehensive sales analysis of the AdventureWorks Cycles dataset using Tableau. The visual dashboards provide interactive insights into revenue, profit trends, customer behavior, product performance, and geographic distribution, supporting strategic business decisions.
+This project showcases a comprehensive sales analysis dashboard for the fictional company Adventure Works Cycles using Tableau. It provides actionable insights into revenue performance, customer demographics, product profitability, and regional trends.
 
 ## Project Objective
 
-- Explore and understand the Adventure Works dataset through visual analytics.
-- Join multiple data tables within Tableau to establish meaningful relationships.
-- Design interactive dashboards to uncover trends and KPIs across sales, geography, and product categories.
-- Enable users to drill down into regions, time periods, and customer segments for granular insights.
-- Leverage Tableau’s capabilities to communicate insights clearly and visually.
+- The goal of this project is to:
+   - Connect and analyze multiple CSV files representing a relational database.
+   - Build a dynamic Tableau dashboard to track KPIs like sales, profit, customer distribution, and product trends.
+   - Enable data-driven decision-making through compelling visuals and interactivity.
 
 ## Dataset
 
 - `DimCustomer.xlsx
-
 - `DimDate.xlsx`
-
 - `DimProduct.xlsx`
-
 - `DimSalesTerritory.xlsx`
-
 - `Sales.xlsx`
 
 ## Tools & Technologies
 
-- **Database:** MySQL 8.x  
-- **Client:** MySQL Workbench 
-- **Language:** SQL
+- **Data Visualization:** Tableau 
+- **Data Source:** Excel (.xlsx) 
+- **Dashboard Development:** Tableau Desktop
 
 ## Key Features
  
 - Connect multiple Excel files and perform data joins within Tableau.
-- Clean and transform data using Tableau Prep for consistency and accuracy.
 - Use calculated fields for profit, profit margin, order value, and other KPIs.
 - Apply dynamic filters, slicers, and interactive charts for user-driven exploration.
 - Build insightful dashboards to monitor performance by time, location, and product.
 
 ## Key Takeaways
 
-- The company generated $29.36 million in total sales, with $12.08 million in profit and $17.28 million in production cost, yielding a 41.1% profit margin.
-- Average revenue per customer was $1,588.33, and average order value was $486.09—indicating strong customer value.
-- Order volume is nearly evenly split by gender: 30,381 (male) vs. 30,017 (female), showing balanced customer engagement.
-- Top countries by sales:
-      - United States: $9.39M
-      - Australia: $9.06M
-      - United Kingdom: $3.39M
-      - Germany: $2.89M
-      - France: $2.64M
-
-- Peak year: 2013 with $16.35M in sales, followed by 2011 and 2012—indicating strong growth trends.
-- Quarter 4 of 2013 had the highest sales: $5.33M, followed by Q3 with $4.37M.
-- December recorded the highest monthly revenue ($3.21M) and production cost ($1.88M), reflecting seasonal spikes.
-- Australia leads in customer volume, sales, and cost, indicating it as a primary market.
-- North America is the most active sales territory.
-- A few high-performing product subcategories generate the bulk of sales—ideal for focused sales campaigns.
-- Monthly trends show sales growth mid-year onwards, while volatility points to the need for better forecasting and promotions.
+- Total Sales: $29.36M | Profit: $12.08M | Profit Margin: ~41.1%
+- Customer Base: 60,398 orders across diverse regions
+- Top Country by Revenue: United States & Australia
+- Category Focus: A few sub-categories account for most of the revenue
+- Sales peaked in Q4 of 2013 with $3.76M, followed by Q3 with $3.15M.
+- Australia emerged as a top-performing region with $3.69M profit.
+- Balanced gender participation, with similar order volumes from male and female customers.
+- Product Mountain-200 Black (variants 46, 42, 38) dominated the top 5 in profitability.
