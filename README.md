@@ -5,7 +5,7 @@ This project showcases a comprehensive sales analysis dashboard for the fictiona
 ## Project Objective
 
 - The goal of this project is to:
-   - Connect and analyze multiple CSV files representing a relational database.
+   - Connect and analyze multiple Excel files representing a relational database.
    - Build a dynamic Tableau dashboard to track KPIs like sales, profit, customer distribution, and product trends.
    - Enable data-driven decision-making through compelling visuals and interactivity.
 
