@@ -11,7 +11,7 @@ This project showcases a comprehensive sales analysis dashboard for the fictiona
 
 ## Dataset
 
-- `DimCustomer.xlsx
+- `DimCustomer.xlsx`
 - `DimDate.xlsx`
 - `DimProduct.xlsx`
 - `DimSalesTerritory.xlsx`
